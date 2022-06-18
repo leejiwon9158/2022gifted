@@ -11,11 +11,11 @@ while True :
     i = i + 1
     if i % 2 == 0 :
         p.color = color.white
-        g.color = color.green
+        g.color = color.magenta
     else :
-        p.color = color.green
-        g.color = color.white
+        p.color = color.magenta
     if ' ' in k :
+        g.color = color.white
         label(text = '당첨되셨습니다!', pos = vec(0,1.5,0))
         break
 
